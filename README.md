@@ -29,3 +29,6 @@ Cambios con la version del Taller original:
 -Con el boton generar se agregan nuevos terremotos
 
 -El resto de opciones revisan en la lista si existe algo de lo pedido
+
+NOTA ESPERADA: 5.3, pese a que hay muchas funcionalidades correctas, el manejo de datos o mas especificamente el guardar el nuevo terremoto generado me jugó en contra
+haciendo que esta funcionalidad esté a un 80% funcional, se subió imagen del archivo vpp del proyecto, relativamente mal uso de github. Se subió archivo rar con producto final, la version subida via intellij a Github no recuerdo si está con algún error, si no me equivoco ahi se generaba nuevo terremoto, pero borraba el resto de elementos de archivo csv, eso fue corregido en el rar en el metodo create de la clase Service Launcher. Lamentando la hora de subida final en el departamento DCI se cortó la luz y recien a esta hora volvió.
