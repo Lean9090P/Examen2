@@ -2,18 +2,9 @@
 
 Leandro Pino Barrientos A partir del taller 02 de medición de Terrremotos
 
-A partir del taller 02 Se pide:
-
-En el contexto de un proyecto de SmartCity para Temuco, se quiere simular el funcionamiento de un sensor sismológico, el cual almacena una lectura sismológica por cada hora del día.
-Los datos que se recopilen permitirán hacer un estudio de N días (un número entero) respecto de la actividad sísmica registrada por el sensor.
-Finalmente, se tiene una matriz con los datos recopilados por el sensor para N días con 24 lecturas diarias.
-Para efectos de esta simulación, se debe considerar que:
-
-la cantidad de días a revisar la define el usuario (N) y se lee por teclado (set-up del sensor).
-el valor de cada registro se genera de forma aleatoria, con valores entre 0.5 y 9.5 grados en escala de Richter, que son los valores min. y máx. soportados por el sensor.
 ============================================================================================================
 
-Con los datos ya almacenados se requiere saber:
+A partir de los datos guardados se requiere saber:
 
 i) ¿Qué intensidad? ¿Qué día? y a ¿Qué hora ocurrió el sismo más intenso?
 
@@ -27,6 +18,14 @@ v) Se debe además crear un MENÚ que permita acceder a las opciones anteriores,
 
 ============================================================================================================
 
-Cambios con la version del Taller original: -Se creó un archivo .csv para visualizar los terremotos 
+Cambios con la version del Taller original: 
+
+-Se creó un archivo .csv para visualizar los terremotos 
+
 -Se creó un menú que permite moverse entre lo pedido o las opciones que existen 
+
 -Para ver mejor las Guis, se usó la librería de Jform
+
+-Con el boton generar se agregan nuevos terremotos
+
+-El resto de opciones revisan en la lista si existe algo de lo pedido
